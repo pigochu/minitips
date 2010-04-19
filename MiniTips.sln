@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniTips", "MiniTips\MiniTips.csproj", "{60E9415F-EB95-430B-A470-C18812560E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlLibrary", "MiniTips\ControlLibrary\ControlLibrary.csproj", "{449BEEFB-E1DB-47F4-81F5-E559C8398C77}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MiniTips_Setup", "MiniTips_Setup\MiniTips_Setup.vdproj", "{B7B9D04D-02A0-4C22-BEC6-0A8A3C48AE67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60E9415F-EB95-430B-A470-C18812560E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E9415F-EB95-430B-A470-C18812560E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E9415F-EB95-430B-A470-C18812560E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E9415F-EB95-430B-A470-C18812560E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449BEEFB-E1DB-47F4-81F5-E559C8398C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449BEEFB-E1DB-47F4-81F5-E559C8398C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449BEEFB-E1DB-47F4-81F5-E559C8398C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449BEEFB-E1DB-47F4-81F5-E559C8398C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B9D04D-02A0-4C22-BEC6-0A8A3C48AE67}.Debug|Any CPU.ActiveCfg = Debug
+		{B7B9D04D-02A0-4C22-BEC6-0A8A3C48AE67}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

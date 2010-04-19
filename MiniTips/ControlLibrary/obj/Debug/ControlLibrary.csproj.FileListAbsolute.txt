@@ -1,0 +1,14 @@
+C:\Users\pigo\Desktop\mul\Step3\ControlLibrary\bin\Debug\ControlLibrary.dll
+C:\Users\pigo\Desktop\mul\Step3\ControlLibrary\bin\Debug\ControlLibrary.pdb
+C:\Users\pigo\Desktop\mul\Step3\ControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pigo\Desktop\mul\Step3\ControlLibrary\obj\Debug\Kerido.Controls.Design.frmSwitchPages.resources
+C:\Users\pigo\Desktop\mul\Step3\ControlLibrary\obj\Debug\ControlLibrary.csproj.GenerateResource.Cache
+C:\Users\pigo\Desktop\mul\Step3\ControlLibrary\obj\Debug\ControlLibrary.dll
+C:\Users\pigo\Desktop\mul\Step3\ControlLibrary\obj\Debug\ControlLibrary.pdb
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\ControlLibrary\bin\Debug\ControlLibrary.dll
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\ControlLibrary\bin\Debug\ControlLibrary.pdb
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\ControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\ControlLibrary\obj\Debug\Kerido.Controls.Design.frmSwitchPages.resources
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\ControlLibrary\obj\Debug\ControlLibrary.csproj.GenerateResource.Cache
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\ControlLibrary\obj\Debug\ControlLibrary.dll
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\ControlLibrary\obj\Debug\ControlLibrary.pdb

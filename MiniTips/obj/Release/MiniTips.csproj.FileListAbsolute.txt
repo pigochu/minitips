@@ -1,0 +1,15 @@
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\bin\Release\MiniTips.exe.config
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\bin\Release\MiniTips.exe
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\bin\Release\MiniTips.pdb
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\obj\Release\ResolveAssemblyReference.cache
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\obj\Release\MiniTips.AboutBox.resources
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\obj\Release\MiniTips.FormList.resources
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\obj\Release\MiniTips.FormEditTip.resources
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\obj\Release\MiniTips.Properties.Resources.resources
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\obj\Release\MiniTips.csproj.GenerateResource.Cache
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\obj\Release\MiniTips.exe
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\obj\Release\MiniTips.pdb
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\bin\Release\ControlLibrary.dll
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\obj\Release\MiniTips.FormWizardTipTime.resources
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\obj\Release\MiniTips.NotifiedBox.resources
+C:\Users\pigo\Documents\Visual Studio 2008\Projects\MiniTips\MiniTips\obj\Release\MiniTips.OptionsBox.resources

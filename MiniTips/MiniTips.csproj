@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60E9415F-EB95-430B-A470-C18812560E46}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MiniTips</RootNamespace>
+    <AssemblyName>MiniTips</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationConfig.cs" />
+    <Compile Include="ConfigDataSet.cs">
+      <DependentUpon>ConfigDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ConfigDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfigDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NotifiedBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotifiedBox.Designer.cs">
+      <DependentUpon>NotifiedBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionsBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsBox.Designer.cs">
+      <DependentUpon>OptionsBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TipsTimeChecker.cs" />
+    <Compile Include="FormWizardTipTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWizardTipTime.Designer.cs">
+      <DependentUpon>FormWizardTipTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiniTipsDataSet.cs">
+      <DependentUpon>MiniTipsDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MiniTipsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MiniTipsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormList.Designer.cs">
+      <DependentUpon>FormList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditTip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditTip.Designer.cs">
+      <DependentUpon>FormEditTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormList.resx">
+      <DependentUpon>FormList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditTip.resx">
+      <DependentUpon>FormEditTip.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWizardTipTime.resx">
+      <DependentUpon>FormWizardTipTime.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotifiedBox.resx">
+      <DependentUpon>NotifiedBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsBox.resx">
+      <DependentUpon>OptionsBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.TXT" />
+    <Content Include="Resources\remove_16.png" />
+    <Content Include="Resources\remove_24.png" />
+    <Content Include="Resources\remove_32.png" />
+    <Content Include="Resources\remove_48.png" />
+    <Content Include="Resources\add.ico" />
+    <Content Include="Resources\edit.ico" />
+    <Content Include="Resources\empty.png" />
+    <Content Include="Resources\logo.ico" />
+    <Content Include="Resources\remove.ico" />
+    <Content Include="Resources\search_24.png" />
+    <Content Include="Resources\search.ico" />
+    <None Include="Properties\DataSources\MiniTipsDataSet.datasource" />
+    <None Include="Properties\DataSources\MiniTipsTables.datasource" />
+    <None Include="Resources\warning.ico" />
+    <None Include="Resources\logo_24.png" />
+    <None Include="Resources\logo_48.png" />
+    <None Include="Resources\logo_32.png" />
+    <None Include="Resources\logo_16.png" />
+    <None Include="Resources\edit_24.png" />
+    <None Include="Resources\edit_16.png" />
+    <None Include="Resources\add_24.png" />
+    <None Include="Resources\add_16.png" />
+    <None Include="ConfigDataSet.xsc">
+      <DependentUpon>ConfigDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ConfigDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConfigDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ConfigDataSet.xss">
+      <DependentUpon>ConfigDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MiniTipsDataSet.xsc">
+      <DependentUpon>MiniTipsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MiniTipsDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MiniTipsDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MiniTipsDataSet.xss">
+      <DependentUpon>MiniTipsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\ApplicationConfig.datasource" />
+    <None Include="Properties\DataSources\MiniTipsDataSet.TipsNotifiedRow.datasource" />
+    <None Include="Properties\DataSources\MiniTipsDataSet.TipsRow.datasource" />
+    <None Include="Properties\DataSources\MiniTipsDataSet.TipsTimeRow.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="ControlLibrary\ControlLibrary.csproj">
+      <Project>{449BEEFB-E1DB-47F4-81F5-E559C8398C77}</Project>
+      <Name>ControlLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
